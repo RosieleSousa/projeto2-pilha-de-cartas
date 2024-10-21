@@ -16,7 +16,7 @@ while(true){
                 console.log(`Você puxou a carta ${pullCard}.`)
             }
 
-        }else if(opiton === '3'){
+        }else if(opition === '3'){
             console.log('saindo do programa...')
         }else{
             console.log('Opção inválida. Tente novamente.')
