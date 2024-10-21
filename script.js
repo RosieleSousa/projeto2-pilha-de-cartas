@@ -10,17 +10,13 @@ while(true){
             addLetter = prompt('Digite o nome da carta:')
             cheap.unshift(addLetter)
             console.log(`Carta ${addLetter} adicionada no baralho.`)
-        } else if(opiton === '2'){
+        } else if(option === '2'){
             if(cheap.length > 0){
                 const pullCard = cheap.shift()
                 console.log(`Voce puxou a carta ${pullCard}.`)
             }
 
-<<<<<<< HEAD
         }else if(option === '3'){
-=======
-        }else if(option === '3'){
->>>>>>> 8dbaa4645d4ee3553a212054734291729938042d
             console.log('saindo do programa...')
         }else{
             console.log('Opcao invalida. Tente novamente.')
