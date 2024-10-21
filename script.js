@@ -1,7 +1,7 @@
 const cheap = []
 while(true){
-   let option = prompt(`Você tem atualmente: ${cheap.length};
-        você deseja(digite um número):
+   let option = prompt(`Voce tem atualmente: ${cheap.length};
+        voce deseja(digite um numero):
         1.Adicionar uma carta;
         2.Puxar uma carta;
         3.Sair;`)
@@ -13,13 +13,17 @@ while(true){
         } else if(opiton === '2'){
             if(cheap.length > 0){
                 const pullCard = cheap.shift()
-                console.log(`Você puxou a carta ${pullCard}.`)
+                console.log(`Voce puxou a carta ${pullCard}.`)
             }
 
-        }else if(opition === '3'){
+<<<<<<< HEAD
+        }else if(option === '3'){
+=======
+        }else if(option === '3'){
+>>>>>>> 8dbaa4645d4ee3553a212054734291729938042d
             console.log('saindo do programa...')
         }else{
-            console.log('Opção inválida. Tente novamente.')
+            console.log('Opcao invalida. Tente novamente.')
         }
         
 }
